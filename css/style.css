@@ -1896,6 +1896,7 @@ footer {
   .contact-details h4,
   p {
     font-size: 16px;
+    margin-bottom: 0;
   }
   .footer-content {
     gap: 2rem;
@@ -1965,4 +1966,9 @@ main {
 .about-text,
 .notes {
   background: rgba(255, 255, 255, 0.3);
+}
+@media (max-width: 376px) {
+  footer p {
+    font-size: 13px;
+  }
 }
