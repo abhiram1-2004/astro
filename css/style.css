@@ -1884,8 +1884,8 @@ footer {
     gap: 1.5rem;
   }
   .contact-item {
-    padding: 0.5rem !important;
-    gap: 0rem;
+    padding: 1.5rem;
+    gap: 1rem;
   }
   .contact-item i {
     font-size: 1.5rem;
