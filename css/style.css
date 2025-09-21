@@ -288,6 +288,9 @@ header {
   color: var(--button);
   margin-left: 1ch;
 }
+.footer-logo span {
+  margin-left: 1ch;
+}
 
 nav ul {
   display: flex;
@@ -1130,7 +1133,7 @@ nav ul li a:hover::after {
 .contact-item i {
   font-size: 1.8rem;
   color: var(--button);
-  min-width: 40px;
+  min-width: 28px;
   text-align: center;
 }
 .contact-details h4 {
@@ -1210,7 +1213,7 @@ footer {
   color: var(--text-medium);
 }
 .social-links {
-  display: flex;
+  display: none;
   gap: 1rem;
   margin-top: 1.5rem;
 }
@@ -1884,13 +1887,14 @@ footer {
     gap: 1.5rem;
   }
   .contact-item {
-    padding: 1.5rem;
-    gap: 1rem;
+    padding: 0.5rem !important;
+    gap: 0rem;
   }
   .contact-item i {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
-  .contact-details h4 p {
+  .contact-details h4,
+  p {
     font-size: 16px;
   }
   .footer-content {
